@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Daniel Kim"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Daniel's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Nanum Gothic-->
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+        <!-- css-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+        <!--bootstrap 4.x-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- fullpage installation-->
+        <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        
+    </head>
+    <body>
+        <!--nav-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
+                <a class="navbar-brand mb-0 h1" href="#page1">
+                    Daniel's protfolio
+                </a>
+                <div class="collapse navbar-collapse" id="menu">
+                    
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a data-menuanchor="page1" class="nav-link active"href="#page1">Welcome!</a></li>
+                        <li class="nav-item dropdown" href="#page2">  
+                                <a data-menuanchor="page2" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#page3" role="button" aria-haspopup="true" aria-expanded="false">Who am I?</a>
+                                <div class="dropdown-menu">
+                                <a data-menuanchor="1" class="dropdown-item" href="#page2/1">About Me</a>
+                                <a data-menuanchor="2" class="dropdown-item" href="#page2/2">Programming Skills</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown" href="#page3">  
+                            <a data-menuanchor="page3" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#page3" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                            <div class="dropdown-menu">
+                                <h4><a class="dropdown-item disabled">2017</a></h4>
+                                <a data-menuanchor="1" class="dropdown-item" href="#page3/1">Sullivan Project</a>
+                                <a data-menuanchor="2" class="dropdown-item" href="#page3/2">Samsung Junior Software Cup</a>
+                                <a data-menuanchor="3" class="dropdown-item" href="#page3/3">13TH AppJam</a>
+                                <div class="dropdown-divider"></div>
+                                <h4><a class="dropdown-item disabled">2018</a></h4>
+                                <a data-menuanchor="4" class="dropdown-item" href="#page3/4">14TH AppJam</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a data-menuanchor="page4" class="nav-link" href="#page4">Contact Me</a></li>
+                    </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" style="margin-right:10px;">
+                        <a class="nav-link" href="https://www.youtube.com/channel/UCbvknjvpmFpccv4U5VgWxLg" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="Subscribe me!">
+                            <img src="./img/youtube.png" width="30" height="30" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item"  style="margin-right:10px;">
+                        <a class="nav-link" href="https://instagram.com/00.12.30_k" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="Follow me!">
+                            <img src="./img/instagram.png" width="30" height="30" alt="">
+                        </a>            
+                    </li>
+                    <li class="nav-item"  style="margin-right:10px;">
+                        <a class="nav-link" href="https://www.facebook.com/dowan.kim2" target="_blank"   data-toggle="tooltip" data-placement="bottom" title="Friend with me!">
+                            <img src="./img/facebook.png" width="30" height="30" alt="">
+                        </a>
+                    </li>
+                </ul>    
+            </div>
+            </nav>
+        <!--page Start-->
+        <div id="fullpage">
+            <div class="section">
+                <div class="container">         
+                    <img src="./img/profile.jpg" width="50%" height="50%" style="border: 10px solid rgba(0,0,0,0.3);  border-radius:100%">                    
+                    <br><br><br>
+                    <h1>Welcome to Daniel's Portfolio!</h1>    
+                    <div class="scroll-down">
+                        Move Next<br>
+                        <a href="#" id="moveDown"><img src="./img/arrow-down-black.png" onmouseover="this.src='./img/arrow-down-white.png'" onmouseout="this.src='./img/arrow-down-black.png'" border="0"></a>
+                    </div>                
+                </div>
+            </div>
+            <div class="section">
+                <div class="slide" data-anchor="1">
+                    <h1>About Me</h1>
+                    
+                    <hr style="width:84%; border: 3px solid rgba(0,0,0,0.3);">
+                    <div class="row" >
+                    <div class="col-sm-1" ></div>
+                    
+                    <div class="col-sm-5"style="margin:auto;" >
+                            <img src="./img/profile/1.jpg" width="70%"   alt="">       
+                        </div>
+                    <div class="col-sm-5" style="text-align:left;   padding-left:10%;">
+                        <br>
+                        <h3><b>NAME</b><br></h3> <h4>김도완(Daniel Kim)</h4>
+                        <h3><b>SCHOOL</b><br></h3> <h4>Korea Digital Media Highschool</h4>
+                        <h4>Web Programming course</h4>
+                        <h3><b>Birth</b><br></h3> <h4>2000. 12. 30</h4>
+                        <h3><b>Language I can Perform</b><br></h3> <h4>C, C++, Java, Html, JavaScript, CSS</h4>
+                        <h3><b>Hobby</b></h3> <h4>Watching Movies, Listening to musics, Playing games, Making Programs</h4><br>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <hr style="width:84%; border: 3px solid rgba(0,0,0,0.3);">
+                    </div>
+                </div>
+                <div class="slide" data-anchor="2">
+                    <div class="row">
+                        <div class= "col-sm-2"></div>
+                        <div class= "col-sm-8">
+                            <div class="left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"alt=""></div>
+                            <h3>HTML5   </h3>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%; " aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    <div class="row">      
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8">
+                            <div class="left"><img src="http://ekladata.com/ehqpKOcfjxl1nG2JZk5vkNac5xU.png" alt=""></div>
+                            <h3>CSS</h3>
+                            <div class="progress" >
+                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    <div class="row">      
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8">
+                            <div class="left"><img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Javascript-shield.png"alt=""></div>
+                            <h3>JavaScript</h3>
+                            <div class="progress" >
+                                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    
+                    <div class="row">      
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                            <div class="left"><img src="http://ddkits.com/sites/files/php5.png"alt=""></div>
+                            <h3>PHP</h3>
+                            <div class="progress" >
+                                <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    
+                    <div class="row">      
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                            <div class="left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"alt=""></div>
+                            <h3>C++</h3>
+                            <div class="progress" >
+                                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                    
+                    <div class="row">      
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                            <div class="left"><img src="https://images.sftcdn.net/images/t_optimized,f_auto/p/2f4c04f4-96d0-11e6-9830-00163ed833e7/3163796423/java-runtime-environment-logo.png"alt=""></div>
+                            <h3>JAVA</h3>
+                            <div class="progress" >
+                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                            <hr>
+                            </div>  
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </div>
+                </div>
+            
+            <div class="section">
+                <div class="slide" data-anchor="1"> Slide 1 </div>
+                <div class="slide" data-anchor="2">slide 2</div>
+                <div class="slide" data-anchor="3"> Slide 3 </div>
+                <div class="slide" data-anchor="4"> Slide 4 </div>
+            </div>
+            <div class="section">
+                <h1> SELECT ANYTHING! </h1><br><br>
+                <div class="row">
+                    <div class="col" >
+                        <a href="https://www.facebook.com/dowan.kim2" target="_blank"  data-toggle="tooltip" data-placement="left" data-html="true" title="Moving to Facebook">
+                        <div class="card" style="margin-left:60%">
+                            <br> <img src="./img/SNS/facebook.png" alt="" style="width:85%; margin:auto;">
+                        </a>
+                            <br>
+                        </div>
+                    
+                    </div>
+                    <div class="col" >
+                        <div class="card">
+                                <a href="https://www.instagram.com/00.12.30_k" target="_blank" data-toggle="tooltip" data-placement="left" data-html="true" title="Moving to Instagram">
+                            <br> <img src="./img/SNS/instagram.png" alt="" style="width:85%; margin:auto;" ></a>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col" >
+                        <div class="card" style="margin-right:60%">
+                                <a href="https://www.youtube.com/channel/UCbvknjvpmFpccv4U5VgWxLg" target="_blank" data-toggle="tooltip" data-placement="left" data-html="true" title="Moving to Youtube">
+                            <br><img src="./img/SNS/youtube.png" alt="" style="width:85%; margin:auto;"></a>
+                            <br>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="w-100"></div>
+                    <br><br>
+                    
+                    <div class="col" >
+                            <div class="card" style="margin-left:60%">
+                                    <a href="#"data-toggle="tooltip" data-placement="left" data-html="true" title=" KAKAO : dowan0101 <br> add me as a friend!">
+                                <br> <img src="./img/SNS/kakaotalk.png" alt="" style="width:85%; margin:auto;"></a>
+                                <br>
+                            </div>
+                        </div>
+                       
+                        <div class="col" >
+                            <div class="card">
+                                <br> <a href="#"data-toggle="tooltip" data-placement="left" data-html="true" title="<hr style='border: 1px solid white'>< NAVER > dwkim0101@naver.com <br> < GMAIL > dowan01@gmail.com <br><hr style='border: 1px solid white'>">
+                                <img src="./img/SNS/email.png" alt="" style="width:85%; margin:auto;"></a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col">
+                                <div class="card" style="margin-right:60%"><a href="https://github.com/dwkim0101" target="_blank" data-toggle="tooltip" data-placement="left" data-html="true" title="Moving to Github"><br>
+                                <img src="./img/SNS/github.png" alt="" style="width:85%; margin:auto;"></a>
+                                <BR>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- script -->
+        <script type="text/javascript" src="./js/main.js"></script>
+        <!--jquary-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+        <!--bootstrap 4.x-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- fullpage installation-->
+        <script type="text/javascript" src="./js/scrolloverflow.min.js"></script>
+        <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+        <script>            
+                $(function () {
+                    $('[data-toggle="tooltip"]').tooltip()
+                });
+                $(document).ready(function() {
+                    $('#fullpage').fullpage({
+                        menu: '#mainNav',
+                        showActivateTooltip: true,
+                        paddingTop:'55px',
+                        anchors: ['page1', 'page2', 'page3', 'page4'],
+                        controlArrows: false,                        
+                        loopBottom: true,
+                        navigation: true,
+                        navigationTooltips: ['Welcome!', 'Who am I?','What I have done!','My SNS accounts'],
+                        verticalCentered: true,
+                        slidesNavigation: true,
+                		slidesNavPosition: 'bottom',
+                        scrollOverflow: true,
+                        sectionsColor: ['#D4DFE6', '#D4DFE6', '#D4DFE6', '#D4DFE6'],
+                    });
+                });
+                $(document).on('click', '#moveDown', function(){
+                    $.fn.fullpage.moveSectionDown();
+                });
+        </script>
+    </body>
+</html>
